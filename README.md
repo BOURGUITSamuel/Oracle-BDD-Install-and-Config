@@ -27,7 +27,7 @@ Le programme a été conçu avec le language Bash.
 
 NB : Téléchargez les fichiers d'installation pour l'Instant Client à l'adresse suivante : https://www.oracle.com/fr/database/technologies/instant-client/linux-x86-64-downloads.html
 
-3- Vous pouvez appliquer vos propres paramètres en modifiant le script Vous pouvez appliquer vos propres paramètres en modifiant les scripts
+3- Vous pouvez appliquer vos propres paramètres en modifiant les scripts 
 
 ## Running the tests
 
