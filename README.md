@@ -21,6 +21,8 @@ L'utilisation du programme nécessite l'acquisition d'un système d'exploitation
 
 Le programme a été conçu avec le language Bash.
 
+Télécharger les fichiers d'installation pour l'Instant Client à l'adresse suivante : https://www.oracle.com/fr/database/technologies/instant-client/linux-x86-64-downloads.html
+
 ## Installing & Using
 
 1- Copiez les scripts dans le répertoire de votre choix
@@ -32,8 +34,6 @@ Le programme a été conçu avec le language Bash.
 - Modifier la version de l'Instant Client que vous souhaitez déployer (par défaut, la version 12 sera installée).
 - Modifier le nom de service à configurer dans le fichier tnsnames.ora (par défaut, le service déployé sera pour XEPDB1).
 - Modifier les fichiers SQL permettant de configurer le jeu de caractères et la pompe de données.
-
-NB : Téléchargez les fichiers d'installation pour l'Instant Client à l'adresse suivante : https://www.oracle.com/fr/database/technologies/instant-client/linux-x86-64-downloads.html
 
 3- Vous pouvez appliquer vos propres paramètres en modifiant les scripts 
 
