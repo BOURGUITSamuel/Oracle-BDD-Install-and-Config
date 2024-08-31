@@ -4,7 +4,7 @@ Bash script for installing and configuring an Oracle database.
 
 ## Getting Started
 
-Ces scripts Bash permettent de déployer et configurer une base de données Oracle Express Edition 21c dans un environnement de production.
+Ces scripts Bash permettent de déployer et configurer une base de données Oracle Express Edition version 21c dans un environnement de production.
 Le projet a été conçu pour une application web nécessitant de stocker ses données dans un SGBD et de faire transiter ces mêmes données entre le front-end et le back-end via un agent de synchronisation.
 
 ### Prerequisites
