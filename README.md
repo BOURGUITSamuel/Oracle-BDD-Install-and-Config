@@ -7,6 +7,14 @@ Bash script for installing and configuring an Oracle database.
 Ces scripts Bash permettent de déployer et configurer une base de données Oracle Express Edition version 21c dans un environnement de production.
 Le projet a été conçu pour une application web nécessitant de stocker ses données dans un SGBD et de faire transiter ces mêmes données entre le front-end et le back-end via un agent de synchronisation.
 
+Le projet comprend les étapes suivantes :
+
+- Installation d'Oracle BDD Express Edition version 21c
+- Configuration de la pompe de données, du jeu de caractères, et des variables d'environnement
+- Installation et configuration de l'Instant Client version 12
+- Configuration du fichier tnsnames.ora
+- Redémarrage du listener
+
 ### Prerequisites
 
 L'utilisation du programme nécessite l'acquisition d'un système d'exploitation Linux : Oracle Linux version 8 au minimum.
