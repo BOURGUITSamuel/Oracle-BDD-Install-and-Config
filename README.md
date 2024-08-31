@@ -19,11 +19,11 @@ Le programme a été conçu avec le language Bash.
 
 2- Ajustez les paramètres suivants selon votre situation :
 
-Modifier les identifiants de connexion.
-Modifier les paramètres pour la configuration de la pompe de données (Data Pump).
-Modifier la version de l'Instant Client que vous souhaitez déployer (par défaut, la version 12 sera installée).
-Modifier le nom de service à configurer dans le fichier tnsnames.ora (par défaut, le service déployé sera pour XEPDB1).
-Modifier les fichiers SQL permettant de configurer le jeu de caractères et la pompe de données.
+- Modifier les identifiants de connexion.
+- Modifier les paramètres pour la configuration de la pompe de données (Data Pump).
+- Modifier la version de l'Instant Client que vous souhaitez déployer (par défaut, la version 12 sera installée).
+- Modifier le nom de service à configurer dans le fichier tnsnames.ora (par défaut, le service déployé sera pour XEPDB1).
+- Modifier les fichiers SQL permettant de configurer le jeu de caractères et la pompe de données.
 
 3- Vous pouvez appliquer vos propres paramètres en modifiant les scripts
 
