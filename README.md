@@ -25,9 +25,9 @@ Le programme a été conçu avec le language Bash.
 - Modifier le nom de service à configurer dans le fichier tnsnames.ora (par défaut, le service déployé sera pour XEPDB1).
 - Modifier les fichiers SQL permettant de configurer le jeu de caractères et la pompe de données.
 
-NB : Vous pouvez appliquer vos propres paramètres en modifiant les scripts
-
 NB : Téléchargez les fichiers d'installation pour l'Instant Client à l'adresse suivante : https://www.oracle.com/fr/database/technologies/instant-client/linux-x86-64-downloads.html
+
+3- Vous pouvez appliquer vos propres paramètres en modifiant le script Vous pouvez appliquer vos propres paramètres en modifiant les scripts
 
 ## Running the tests
 
