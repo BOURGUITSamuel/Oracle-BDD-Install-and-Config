@@ -1,5 +1,5 @@
 -- Configuration du répertoire pour le datapump
-CREATE OR REPLACE DIRECTORY OPERIS_DATAPUMP AS '/opt/oracle/backup';
+CREATE OR REPLACE DIRECTORY PROD_DATAPUMP AS '/opt/oracle/backup';
 
 -- Accorder les privilèges nécessaires
 grant read,write on directory PROD_DATAPUMP to system;
