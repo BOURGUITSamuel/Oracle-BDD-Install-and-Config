@@ -19,7 +19,7 @@ HOST="localhost"
 SSH_PORT="1521"
 
 # Configuration du Data Pump
-DATA_PUMP="OPERIS_DATAPUMP"
+DATA_PUMP="PROD_DATAPUMP"
 DATAPUMP_DIR="/opt/oracle/backup"
 DATAPUMP_FILE="/tmp/export_datapump.sql"
 DUMPFILE="expdp.dmp"
