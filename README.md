@@ -45,7 +45,7 @@ Le programme a été testé sur l'OS Oracle Linux 8 64bits.
 
 ## Versioning
 
-Version 1.0
+Version 2.0
 
 ## Authors
 
