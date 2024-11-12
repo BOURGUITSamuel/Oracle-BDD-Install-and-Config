@@ -11,6 +11,7 @@ Le projet comprend les étapes suivantes :
 
 - Installation d'Oracle BDD Express Edition version 21c
 - Configuration de la pompe de données, du jeu de caractères, et des variables d'environnement
+- Changement de la durée de validité du mot de passe dans le profil par défaut
 - Installation et configuration de l'Instant Client version 12
 - Configuration du fichier tnsnames.ora
 - Redémarrage du listener
