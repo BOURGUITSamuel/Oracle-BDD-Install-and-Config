@@ -32,7 +32,7 @@ Télécharger les fichiers d'installation pour l'Instant Client à l'adresse sui
 
 - Modifier les identifiants de connexion.
 - Modifier les paramètres pour la configuration de la pompe de données (Data Pump).
-- Modifier la durée de validité du mot de passe (par défaut, le paramètre sera réglé sur 'unlimited')
+- Modifier la durée de validité du mot de passe (par défaut, le paramètre sera réglé sur 'unlimited').
 - Modifier la version de l'Instant Client que vous souhaitez déployer (par défaut, la version 12 sera installée).
 - Modifier le nom de service à configurer dans le fichier tnsnames.ora (par défaut, le service déployé sera pour XEPDB1).
 - Modifier les fichiers SQL permettant de configurer le jeu de caractères et la pompe de données.
