@@ -92,9 +92,6 @@ cleanup_sql_file() {
     fi
 }
 
-# Appel de la fonction avec le fichier de configuration
-ALTER_PROFILE_SQL_FILE="/tmp/alter_default_profile.sql"
-
 # Fonction principale
 main() {
 
