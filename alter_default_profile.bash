@@ -53,7 +53,7 @@ check_profile_modification() {
 
     log_message "Vérification de la modification du profil pour l'instance ${ORACLE_SID}..."
 
-    # Commande pour vérifier les paramètres FAILED_LOGIN_ATTEMPTS et PASSWORD_LIFE_TIME
+    # Commandes pour vérifier les paramètres FAILED_LOGIN_ATTEMPTS et PASSWORD_LIFE_TIME
     failed_login_attempts=$(sqlplus -s ${ORACLE_USER}/${ORACLE_PASSWORD}@${HOST}:${SSH_PORT}/${ORACLE_SID} <<EOF
 SET PAGESIZE 0 FEEDBACK OFF VERIFY OFF HEADING OFF ECHO OFF
 select LIMIT from dba_profiles where PROFILE='DEFAULT' and RESOURCE_NAME='FAILED_LOGIN_ATTEMPTS';
@@ -98,17 +98,21 @@ main() {
     # Recharger le bash_profile
     source "${BASH_PROFILE}"
 
-    if ! check_profile_modification; then
-
-        # Modifier et vérifier le profil pour les instances XE et XEPDB1
-        for instance in "XE" "XEPDB1"; do
-        modify_profile "${instance}"
-        check_profile_modification "${instance}"
-        done
-
-        cleanup_sql_file "${ALTER_PROFILE_SQL_FILE}"
-        log_message "Configuration du profil par défaut terminée avec succès."
+    # Modifier et vérifier le profil pour XE
+    if ! check_profile_modification "XE"; then
+        modify_profile "XE"
+        check_profile_modification "XE"
     fi
+
+    # Modifier et vérifier le profil pour XEPDB1
+    if ! check_profile_modification "XEPDB1"; then
+        modify_profile "XEPDB1"
+        check_profile_modification "XEPDB1"
+    fi
+    
+    # Supprimer le fichier de configuration après modification du profil
+    cleanup_sql_file "${ALTER_PROFILE_SQL_FILE}"
+    log_message "Configuration du profil par défaut terminée avec succès."
 
     exit 0
 }
